@@ -1,5 +1,9 @@
 import fetch from 'node-fetch';
 
+/*
+MD101_SN : 재난문자 일련번호
+*/
+
 let currentMD101_SN = null; // 이전 요청의 MD101_SN 값을 저장하는 변수
 
 function formatDate(date) {
